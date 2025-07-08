@@ -15,7 +15,7 @@ const app = express();
 // CORS configuration 
 const allowedOrigins = [
   'http://localhost:5173',
-  // Add your deployed frontend URL here
+  'https://voting-app-frontend.vercel.app',
 ];
 app.use(cors({
   origin: function (origin, callback) {
